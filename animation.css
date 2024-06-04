@@ -1,0 +1,39 @@
+h1 {
+  text-align: center;
+}
+.narnii_aimag {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.nar {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: yellow;
+  animation-name: turshilt;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  /* transform: translate(100px, 300px); */
+  /* transform: scale(5); */
+  transition-timing-function: ease-in;
+  animation-direction: normal;
+  animation-duration: 5s;
+}
+@keyframes turshilt {
+  from {
+    transform: translateX(-200px);
+  }
+  to {
+    transform: translateX(800px);
+  }
+}
+.tuyaa {
+  width: 20%;
+  height: 20%;
+  background-color: white;
+}
